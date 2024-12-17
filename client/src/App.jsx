@@ -3,7 +3,7 @@ import "./App.css";
 import CreateTestPage from "./components/CreateTestPage";
 import Homepage from "./components/Homepage";
 import TakeTestPage from "./components/TakeTestPage";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 function App() {
   const router = createBrowserRouter([
