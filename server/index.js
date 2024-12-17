@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
 const corsOption = {
-  origin:'http://localhost:5173',
+  origin:'https://interactivequiz-bur6.onrender.com',
   methods:'GET, PUT, POST, PATCH, DELETE, HEAD',
   credentials:true
 }
